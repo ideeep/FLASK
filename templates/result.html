@@ -1,0 +1,12 @@
+<html>
+{% if results >=50 %}
+<h1>The result is pass and the average marks is {{results}}</h1>
+{% else %}
+<h1>The result is fail and the average marks is {{results}}</h1>
+{% endif %}
+<h1>after</h1>
+{% for x, y in disct1.items() %}
+<h1>Key: {{x}}</h1>
+<h2>Value: {{y}}</h2>
+{% endfor %}
+</html>
